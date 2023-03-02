@@ -33,18 +33,20 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('GoogleSignIn'),
-      ),
-      body: Center(
-        child: ElevatedButton(
-          child: const Text('GoogleSignIn'),
-          onPressed: () async {
-            await signInWithGoogle();
-            // ログインが成功すると FirebaseAuth.instance.currentUser にログイン中のユーザーの情報が入ります
-            print(FirebaseAuth.instance.currentUser?.displayName);
-          },
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('GoogleSignIn'),
+        ),
+        body: Center(
+          child: ElevatedButton(
+            child: const Text('GoogleSignIn'),
+            onPressed: () async {
+              await signInWithGoogle();
+              // ログインが成功すると FirebaseAuth.instance.currentUser にログイン中のユーザーの情報が入ります
+              print(FirebaseAuth.instance.currentUser?.displayName);
+            },
+          ),
         ),
       ),
     );
