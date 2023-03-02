@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tworoom_ver2">
+    package="com.missionyr.tworoom">
    <application
         android:label="tworoom_ver2"
         android:name="${applicationName}"

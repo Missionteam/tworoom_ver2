@@ -1,4 +1,4 @@
-package com.example.tworoom_ver2
+package com.missionyr.tworoom
 
 import io.flutter.embedding.android.FlutterActivity
 
