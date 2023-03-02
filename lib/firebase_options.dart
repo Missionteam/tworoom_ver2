@@ -54,11 +54,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyB5wi0OrXZh5i7zAIdSZw5w_hAvF0-IKWQ',
-    appId: '1:1055632925783:ios:77a288f4192d35daffef12',
+    appId: '1:1055632925783:ios:cd16a596a19884a3ffef12',
     messagingSenderId: '1055632925783',
     projectId: 'tworoom-ver2',
     storageBucket: 'tworoom-ver2.appspot.com',
-    iosClientId: '1055632925783-eg5eod9497dfuhvptguqebdigu1cm6td.apps.googleusercontent.com',
-    iosBundleId: 'com.example.tworoomVer2',
+    iosClientId: '1055632925783-uqr258fm5tsosass72csck7cegs9qu0o.apps.googleusercontent.com',
+    iosBundleId: 'com.missionyr.tworoom',
   );
 }
